@@ -2,12 +2,13 @@ package main
 
 import (
 	"log"
+	"fmt"
 	"os"
 	h "net/http"
-	"github.com/nimitt14/go-node/database"
-	TodoRepo "github.com/nimitt14/go-node/repository/todo"
-	"github.com/nimitt14/go-node/delivery/http"
-	EqRepo "github.com/nimitt14/go-node/repository/eventQueue"
+	"github.com/nimitt14/gameZop-go/database"
+	TodoRepo "github.com/nimitt14/gameZop-go/repository/todo"
+	"github.com/nimitt14/gameZop-go/delivery/http"
+	EqRepo "github.com/nimitt14/gameZop-go/repository/eventQueue"
 )
 
 func main(){

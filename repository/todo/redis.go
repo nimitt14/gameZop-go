@@ -5,7 +5,7 @@ import (
     "fmt"
     "context"
 	"github.com/go-redis/redis/v8"
-	"github.com/nimitt14/go-node/domain/todo"
+	"github.com/nimitt14/gameZop-go/domain/todo"
 )
 
 type redisTodoRepo struct {

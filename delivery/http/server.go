@@ -1,10 +1,10 @@
 package http 
 
 import (
-	"github.com/nimitt14/go-node/domain/todo"
+	"github.com/nimitt14/gameZop-go/domain/todo"
 	"github.com/gorilla/mux"
 	// h "net/http"
-	"github.com/nimitt14/go-node/repository/eventQueue"
+	"github.com/nimitt14/gameZop-go/repository/eventQueue"
 )
 
 type httpServer struct {

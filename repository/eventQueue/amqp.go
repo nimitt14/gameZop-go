@@ -2,7 +2,7 @@ package eventQueue
 
 import (
     "fmt"
-	"github.com/nimitt14/go-node/domain/todo"
+	"github.com/nimitt14/gameZop-go/domain/todo"
 	"github.com/streadway/amqp"
 )
 

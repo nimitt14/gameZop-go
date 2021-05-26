@@ -1,1 +1,1 @@
-web: go-node
+web: cmd/bin
